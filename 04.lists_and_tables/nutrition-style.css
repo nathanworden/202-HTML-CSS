@@ -1,0 +1,169 @@
+
+html {
+  display: block;
+  color: -internal-root-color;
+}
+
+html, body {
+  font: 28px Helvetica, Arial, sans-serif;
+  background: #ffffff;
+}
+
+head {
+  display: none;
+}
+
+body {
+      display: block;
+      margin: 8px;
+      width: 680px;
+      box-sizing: border-box;
+     }
+
+article {
+          width: 680px;
+          padding: 10px 15px 15px 15px;
+          border: 2px solid black;
+          box-sizing: border-box;
+          height: 900px;
+          display: block;
+          }
+
+header {
+        display: block;
+        margin-bottom: 10px;
+        border-bottom: 15px solid #000000;
+        margin: 15px;
+       }
+
+header p {
+  margin: 0;
+}
+
+header dl {
+  display: inline-block;
+  width: 49%;
+  padding: 5px 0;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: table;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+tr td:last-of-type {
+  font-weight: 600;
+  text-align: right;
+}
+
+td.indent {
+  width: 1rem;
+  border-top: none;
+}
+
+tbody td {
+  padding: 2px 0;
+  border-top: 1px solid #000000;
+}
+
+td {
+  display:table-cell;
+  vertical-align: inherit;
+}
+
+td dt {
+  font-weight: normal;
+}
+
+thead th {
+  text-align: right;
+}
+
+tbody th {
+  padding: 2px 0;
+  font-weight: normal;
+  text-align: left;
+  border-top: 1px solid #000000;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+}
+
+
+dl {
+  margin: 0;
+  padding: 0px;
+  display: block;
+/*  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;*/
+}
+
+header dl + dl {
+  text-align: right;
+}
+
+header dl + dl dt {
+  font-weight: 500;
+}
+
+dt {
+  display: inline;
+  font-weight: 600;
+}
+
+dd {
+  display: inline;
+  margin: 0;
+  /*margin-inline-start: 40px;*/
+}
+
+h1 {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+   }
+
+h2 {
+  padding: 10px, 0;
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  border-top: 30px solid #000000;
+  border-bottom: 1px solid #000000;
+  display: block:
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  martgin-inlin-end: 0;
+}
