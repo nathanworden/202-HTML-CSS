@@ -9,10 +9,6 @@ html, body {
   background: #ffffff;
 }
 
-head {
-  display: none;
-}
-
 body {
       display: block;
       margin: 8px;
@@ -23,9 +19,8 @@ body {
 article {
           width: 680px;
           padding: 10px 15px 15px 15px;
-          border: 2px solid black;
+          border: 2px solid #000000;
           box-sizing: border-box;
-          height: 900px;
           display: block;
           }
 
@@ -33,17 +28,56 @@ header {
         display: block;
         margin-bottom: 10px;
         border-bottom: 15px solid #000000;
-        margin: 15px;
        }
 
 header p {
   margin: 0;
 }
 
+head {
+  display: none;
+}
+
 header dl {
   display: inline-block;
   width: 49%;
   padding: 5px 0;
+}
+
+table + table {
+  font-size: .8rem;
+}
+
+table + table tr
+td:last-of-type {
+  font-weight: normal;
+  text-align: left;
+}
+
+table + table td {
+  border: none;
+}
+
+table + table td.indent {
+  width: auto;
+  text-indent: 1.2rem;
+}
+
+table + table
+thead th + th {
+  width: 21%;
+}
+
+table + table
+thead th {
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}
+
+table + table
+td.indent {
+
 }
 
 table {
@@ -65,15 +99,30 @@ tbody {
   border-color: inherit;
 }
 
-tr {
-  display: table-row;
-  vertical-align: inherit;
+tfoot {
+  display: table-footer-group;
+  vertical-align: middle;
   border-color: inherit;
 }
 
 tr td:last-of-type {
   font-weight: 600;
   text-align: right;
+}
+
+tfoot td:last-of-type {
+  padding: .5rem 0 .5rem .7rem;
+  font-size: .9rem;
+  font-weight: normal;
+  text-align: left;
+  text-indent: -.7rem;
+  border-top: 1px solid #000000;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
 }
 
 td.indent {
@@ -127,6 +176,17 @@ header dl + dl {
   text-align: right;
 }
 
+tbody + tbody tr
+td:last-of-type {
+  font-weight: normal;
+}
+
+tbody + tbody
+tr:first-of-type
+td {
+  border-top: 20px solid #000000;
+}
+
 header dl + dl dt {
   font-weight: 500;
 }
@@ -151,12 +211,12 @@ h1 {
    }
 
 h2 {
-  padding: 10px, 0;
+  padding: 10px 0;
   margin: 5px 0 0 0;
   font-size: 1rem;
   border-top: 30px solid #000000;
   border-bottom: 1px solid #000000;
-  display: block:
+  display: block;
   font-weight: bold;
 }
 
