@@ -1,0 +1,39 @@
+body, section, article, aside {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ccc;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
+article, aside {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+article {
+  background-color: #ffc;
+  box-sizing: border-box;
+  width: 70%;
+  float: left;
+}
+
+aside {
+  background-color: #cfc;
+  float: none;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #ebecff;
+  clear: both;
+  padding: 1rem;
+}
