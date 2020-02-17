@@ -1,0 +1,142 @@
+@import url("whitespace-reset")
+
+html {
+  font: normal 18px "Roboto Condensed", sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #3e606f;
+  /*background-repeat: no-repeat;*/
+  background-image: linear-gradient(to bottom, #d2dbbd, #fcfff5);
+  font-family: "Roboto Condensed", sans-serif;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: white;
+  color: inherit;
+  box-shadow: 0 5px 5px #b5b5b5;
+  box-sizing: border-box;
+  clear: both;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px;
+  margin-bottom: 0;
+  /*border: 1px dashed black;*/
+  width: 960px;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  width: 920px;
+  /*border: 1px solid red;*/
+  align-items: flex-end;
+}
+
+nav {
+  /*border: 1px solid orange;*/
+  box-sizing: border-box;
+  display: flex;
+  flex: 9;
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+}
+
+
+
+h1 {
+  /*border: 1px solid seagreen;*/
+  padding: 45px 0 15px 115px;
+  box-sizing: border-box;
+  background: transparent url("logo.png") 0 0 no-repeat;
+  /*float: left;*/
+  font-size: 36px;
+  color: #193441;
+  font-weight: normal;
+  flex: 5;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 32px;
+/*  padding: 0 0 25px;*/
+}
+
+ul {
+  /*border: 1px dashed red;*/
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  align-self: flex-end;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*flex-direction: column-reverse;*/
+}
+
+li {
+  /*border: 1px solid blue;*/
+  /*display: inline-block;*/
+  text-decoration: none;
+  padding: 12px 39px 12px 39px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #91aa9d;
+  background-color: #fcfff6;
+  font-size: 18px;
+  /*margin: 0;*/
+}
+
+
+.masthead {
+  display: block;
+  margin: 0 0 40px;
+  width: 100%;
+}
+
+li:first-child {
+  background-color: #92aa9c;
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+figure {
+  float: right;
+  padding: 0 0 20px 30px;
+  margin: 0;
+}
+
+footer {
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 15px, 0;
+  width: 960px;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 18px;
+  display: block;
+}
+
+
