@@ -1,0 +1,98 @@
+html {
+  padding: 0;
+  margin: 0;
+  font: 400 20px "Nunito Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 2px 0 135px 0;
+  margin: 8px;
+  background: url("bg_body.gif") 0 0;
+  box-sizing: border-box;
+  /*border: 1px solid blue;*/
+}
+
+header {
+  margin: 150px auto 43px;
+  height: 293px;
+  background: url("logo.png") no-repeat;
+  background-position: top;
+  /*border: 1px solid lightblue;*/
+  width: 1000px;
+  box-sizing: border-box;
+}
+
+main {
+  width: 1000px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+  /*padding: 0 auto;*/
+}
+
+.top {
+  display: block;
+  margin-bottom: 158px;
+  /*border: 1px solid lightblue;*/
+}
+
+.bottom {
+  margin-top: 75px;
+  margin-bottom: 66px;
+}
+
+h2 {
+  font: 600 1.8rem "Nunito Sans", Helvetica, Arial, sans-serif;
+  margin: 0 91px 0 91px;
+  display: block;
+  padding: 0 auto;
+  text-align: center;
+  /*border: 1px solid black;*/
+}
+
+h2::before, h2::after {
+  content: "\2022";
+  font-size: 1.4rem;
+  padding: 0 26px 0 24px;
+  vertical-align: 5px;
+}
+
+h3 {
+  font: 800 1.2rem "Nunito Sans", Helvetica, Arial, sans-serif;
+  padding: 0 auto;
+  margin: 20 91px 0 91px;
+  color: #3d97b2;
+  text-align: center;
+}
+
+p {
+  margin: 22px 91px 0 91px;
+  padding: 0 auto;
+  /*border: 1px solid darkred;*/
+  text-align: center;
+}
+
+footer {
+  background-color: #e7e7e7;
+  padding: 28px 0 28px 0;
+  margin: 0;
+  /*border: 1px solid yellow;*/
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 0 50px 0 50px;
+/*  align-items: flex-end;*/
+  /*border: 1px solid green;*/
+}
+
+li {
+  /*flex: 1;*/
+  /*border: 1px solid blue;*/
+}
+
+
+
